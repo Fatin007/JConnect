@@ -29,7 +29,6 @@ Follow these steps to set up and run JConnect on your local machine:
    - Open a terminal and run the following command to clone the JConnect repository:
      ```bash
      git clone https://github.com/Fatin007/JConnect.git
-     cd JConnect
      ```
    - Alternatively, you can download the repository as a ZIP file and extract it.
 
@@ -69,4 +68,4 @@ You can also run the application by executing the JAR file directly if Java is i
 ## Video Demo
   https://youtu.be/i_bHDOCQzuE
 
-  
+
