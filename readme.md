@@ -37,12 +37,21 @@ Follow these steps to set up and run JConnect on your local machine:
    - Open your preferred IDE (here, we’ll use NetBeans).
    - Import the project into NetBeans or any other IDE you are comfortable with.
 
-3. **Running the Application**
-   - Run the project in the IDE.
-   - Click on the **Create Group** button to create a group. This will start the server on your PC. Share the **Server IP** and **Port** with your friends to allow them to join.
-   - Run the project again to open a new instance.
-   - Click on **Join Group** to join the created group.
-   - Type `/help` in the chat to see all available commands.
+## Running the Application
+
+- **Step 1**: Run the project in the IDE.  
+  ![Run Project](https://github.com/Fatin007/JConnect/blob/main/screenshots/1.png)
+
+- **Step 2**: Click on the **Create Group** button to create a group. This will start the server on your PC. Share the **Server IP** and **Port** with your friends to allow them to join.  
+  ![Create Group](https://github.com/Fatin007/JConnect/blob/main/screenshots/2.png)
+
+- **Step 3**: Run the project again to open a new instance.  
+
+- **Step 4**: Click on **Join Group** to join the created group.  
+  ![Join Group](https://github.com/Fatin007/JConnect/blob/main/screenshots/3.png)
+
+- **Step 5**: Type `/help` in the chat to see all available commands.  
+  ![Help Command](https://github.com/Fatin007/JConnect/blob/main/screenshots/4.png)
 
 ### Running the Application without an IDE
 You can also run the application by executing the JAR file directly if Java is installed on your system. Simply download the JAR file from the link below and run it:
