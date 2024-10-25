@@ -5,6 +5,7 @@ JConnect is a Java-based chat application utilizing socket programming, multi-th
 ## Features
 - **Multiple Client Support**: Allows multiple clients to connect and chat in real-time.
 - **Multiple Server Capability**: Any user can host a chat group on their own PC.
+- **Point to point chat**: Point to point chat also allowed
 - **Chat History**: Messages are stored so that late joiners can access past conversations.
 - **Swing UI**: Includes a graphical interface built with Java Swing (interface design is functional but may be improved).
 
