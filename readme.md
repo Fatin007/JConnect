@@ -40,7 +40,7 @@ Follow these steps to set up and run JConnect on your local machine:
 ## Running the Application
 
 - **Step 1**: Run the project in the IDE.  
-  ![Run Project](https://github.com/Fatin007/JConnect/blob/main/screenshots/1.png)
+  <img width="729" alt="1" src="https://github.com/user-attachments/assets/7d274978-32f0-466d-b6ae-7b02090a6f84">
 
 - **Step 2**: Click on the **Create Group** button to create a group. This will start the server on your PC. Share the **Server IP** and **Port** with your friends to allow them to join.  
   ![Create Group](https://github.com/Fatin007/JConnect/blob/main/screenshots/2.png)
