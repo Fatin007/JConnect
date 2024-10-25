@@ -1,0 +1,1 @@
+write readme for a java socket programming based chat application. which also used multi threading and Java swing. 
