@@ -40,20 +40,33 @@ Follow these steps to set up and run JConnect on your local machine:
 ## Running the Application
 
 - **Step 1**: Run the project in the IDE.  
-  <img width="729" alt="1" src="https://github.com/user-attachments/assets/7d274978-32f0-466d-b6ae-7b02090a6f84">
+<p align="center">
+    <img width="729" alt="1" src="https://github.com/user-attachments/assets/7d274978-32f0-466d-b6ae-7b02090a6f84">
+</p>
 
-- **Step 2**: Click on the **Create Group** button to create a group. This will start the server on your PC. Share the **Server IP** and **Port** with your friends to allow them to join.  
+- **Step 2**: Click on the **Create Group** button to create a group. This will start the server on your PC. Share the **Server IP** and **Port** with your friends to allow them to join. 
+<p align="center">
   <img width="547" alt="2" src="https://github.com/user-attachments/assets/dadf29bb-986b-469d-985e-4b459ee4b882">
+</p>
 
 - **Step 3**: Run the project again to open a new instance.  
 
-- **Step 4**: Click on **Join Group** to join the created group.  
+- **Step 4**: Click on **Join Group** to join the created group. 
+<p align="center"> 
   <img width="594" alt="3" src="https://github.com/user-attachments/assets/742e1ab7-9f37-45f9-8977-ca538c9b5050">
+</p>
 
 - **Step 5**: Type `/help` in the chat to see all available commands.  
+<p align="center">
   <img width="335" alt="4" src="https://github.com/user-attachments/assets/fbc8a61d-83f5-4a27-8f19-043eba8218af">
+</p>
 
 ### Running the Application without an IDE
 You can also run the application by executing the JAR file directly if Java is installed on your system. Simply download the JAR file from the link below and run it:
 
 [JConnect-1.0-SNAPSHOT.jar](https://github.com/Fatin007/JConnect/blob/main/target/JConnect-1.0-SNAPSHOT.jar)
+
+## Video Demo
+  https://youtu.be/i_bHDOCQzuE
+
+  
