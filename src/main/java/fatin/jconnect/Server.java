@@ -137,7 +137,7 @@ class ClientHandler implements Runnable {
                     }
                     if(index!=-1 && index!=0 && index!=msg.length()-1 && f){
                         int i = Integer.parseInt(msg.substring(0, index));
-                        String newMsg = this.name + msg.substring(index+1);
+                        String newMsg = this.name + ": " + msg.substring(index+1);
                         server.pointToPoint(newMsg, this, i);
                         continue;
                     }

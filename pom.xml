@@ -17,8 +17,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>22</source> <!-- Java version -->
-                    <target>22</target>
+                    <source>23</source> <!-- Java version -->
+                    <target>23</target>
                     <compilerArgs>
                         <arg>--enable-preview</arg> <!-- Enable preview features -->
                     </compilerArgs>
@@ -38,12 +38,36 @@
                     </archive>
                 </configuration>
             </plugin>
+            
+            <!-- Shade Plugin for creating a fat JAR with dependencies -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.4.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>fatin.jconnect.JConnect</mainClass>
+                                </transformer>
+                            </transformers>
+                            <finalName>${project.artifactId}-${project.version}-with-dependencies</finalName>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>22</maven.compiler.release> <!-- Java version -->
+        <maven.compiler.release>23</maven.compiler.release> <!-- Java version -->
     </properties>
 
     <name>JConnect</name>
